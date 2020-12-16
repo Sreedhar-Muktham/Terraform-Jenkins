@@ -4,6 +4,6 @@ node{
      git 'https://github.com/Sreedhar-Muktham/Terraform-Jenkins'
    }
    stage('Python-Package'){
-      sh "python python.py"
+      sh "python --version"
    }
   }
